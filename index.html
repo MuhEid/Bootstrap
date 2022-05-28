@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <link
+      href="./css/main.min.css"
+      rel="stylesheet"/>
+    <style>
+      section {
+        padding: 60px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-xxl justify-content-center align-items-center">
+        <a href="#intro" class="navbar-brand">
+          <img src="./open-book.png" alt="" width="32" height="32" />
+          <span class="fw-bold text-warning">eShelf</span>
+        </a>
+
+        <!-- Toggle button for mobile nav -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="#main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse justify-content-end" id="main-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >About The Book</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#topics">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Get in Touch</a>
+            </li>
+            <li class="nav-item d-md-none">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item ms-2 d-none d-md-inline">
+              <a class="btn btn-secondary" href="#pricing">buy now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="intro" class="mt-5">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-3">The Subtle Art of Not Giving a F*ck</div>
+              <div class="display-6 text-muted">by Mark Manson</div>
+            </h1>
+            <p class="lead my-4 text-muted">
+              #1 New York Times Bestseller <br />
+              Over 10 million copies sold
+            </p>
+            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+          </div>
+          <div class="col-md-5 text-center d-none d-md-block">
+            <img
+              class="img-fluid"
+              src="./assets/subtle-art-bestseller-3d-340px-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Books Cards  -->
+    <section id="#pricing" class="bg-light mt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Our eBooks Collection</h2>
+          <p class="lead text-muted">order now and get 10% off</p>
+        </div>
+
+        <div class="row my-5 justify-content-center align-items-center g-0">
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border border-2 text-bg-light m-2">
+              <img
+                src="./assets/subtle-art-bestseller-3d-340px-2.png"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">eBooks download only</p>
+                <p class="display-6 my-1 fw-bold">$12.99</p>
+                <a href="#" class="btn btn-outline-dark btn-lg mt-3 px-4">
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border border-2 text-bg-light m-2">
+              <img
+                src="./assets/subtle-art-bestseller-3d-340px-2.png"
+                alt=""
+                class="card-img-top"
+              />
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Complete Edition</h4>
+                <p class="lead card-subtitle">eBooks download & all updates</p>
+                <p class="display-6 my-1 fw-bold">$18.99</p>
+                <a href="#" class="btn btn-outline-dark btn-lg mt-3 px-4">
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border border-2 text-bg-light m-2">
+              <img
+                src="./assets/subtle-art-bestseller-3d-340px-2.png"
+                alt=""
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Ultimate Edition</h4>
+                <p class="lead card-subtitle">download, updates & extras</p>
+                <p class="display-6 my-1 fw-bold">$24.99</p>
+                <a href="#" class="btn btn-outline-dark btn-lg mt-3 px-4">
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border border-2 text-bg-light m-2">
+              <img
+                src="./assets/subtle-art-bestseller-3d-340px-2.png"
+                alt=""
+                class="card-img-top img-fluid"
+              />
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Ultimate Edition</h4>
+                <p class="lead card-subtitle">download, updates & extras</p>
+                <p class="display-6 my-1 fw-bold">$24.99</p>
+                <a href="#" class="btn btn-outline-dark btn-lg mt-3 px-4">
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing Plans Cards -->
+
+    <section id="#pricing" class="mt-5">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Pricing Plans</h2>
+          <p class="lead text-muted">Choose a pricing plan that suits you</p>
+        </div>
+
+        <div class="row my-5 justify-content-center align-items-center g-0">
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0 bg-dark text-white">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">eBooks download only</p>
+                <p class="display-5 my-4 text-warning fw-bold">$12.99</p>
+                <p class="card-text mx-5 text-warning d-none d-lg-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
+                  dolorum.
+                </p>
+                <a href="#" class="btn btn-outline-warning btn-lg mt-3">
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9 col-lg-4">
+            <div class="card border border-warning border-3 bg-dark text-white">
+              <div class="card-header text-center text-warning fw-bold">
+                Most Popular
+              </div>
+              <div class="card-body text-center py-5">
+                <h4 class="card-title">Complete Edition</h4>
+                <p class="lead card-subtitle">eBooks download & all updates</p>
+                <p class="display-4 my-4 text-warning fw-bold">$18.99</p>
+                <p class="card-text mx-5 text-warning d-none d-lg-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
+                  dolorum.
+                </p>
+                <a href="#" class="btn btn-outline-warning btn-lg mt-3">
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0 bg-dark text-white">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Ultimate Edition</h4>
+                <p class="lead card-subtitle">download, updates & extras</p>
+                <p class="display-5 my-4 text-warning fw-bold">$24.99</p>
+                <p class="card-text mx-5 text-warning d-none d-lg-block">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
+                  dolorum.
+                </p>
+                <a href="#" class="btn btn-outline-warning btn-lg mt-3">
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accordion -->
+
+    <section id="topics">
+      <div class="container-md">
+        <div class="text-center">
+          <h2>Accordion</h2>
+          <p class="lead text-muted">Accordion intro</p>
+        </div>
+
+        <div class="row my-5 g-5 justify-content-around align-items-center">
+          <div class="col-6 col-lg-4">
+            <img src="./assets/kindle.png" class="img-fluid" alt="" />
+          </div>
+
+          <div class="col-lg-6">
+            <div class="accordion" id="chapters">
+              <!-- Start of accordin item 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-1"
+                    aria-expanded="true"
+                    aria-controls="chapter-1"
+                  >
+                    George R. R. Martin
+                  </button>
+                </h2>
+
+                <div
+                  id="chapter-1"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="heading-1"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <!-- End of accordion item 1-->
+
+              <!-- Start of accordin item 2-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-2"
+                    aria-expanded="true"
+                    aria-controls="chapter-2"
+                  >
+                    Jordan Peterson
+                  </button>
+                </h2>
+
+                <div
+                  id="chapter-2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-2"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <!-- End of accordion item 2 -->
+
+              <!-- Start of accordin item 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-3"
+                    aria-expanded="true"
+                    aria-controls="chapter-3"
+                  >
+                    Mark Manson
+                  </button>
+                </h2>
+
+                <div
+                  id="chapter-3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-3"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <!-- End of accordion item3 -->
+              <!-- Start of accordin item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#chapter-4"
+                    aria-expanded="true"
+                    aria-controls="chapter-4"
+                  >
+                    Dan Brown
+                  </button>
+                </h2>
+
+                <div
+                  id="chapter-4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-4"
+                  data-bs-parent="#chapters"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div> <!-- End of accordion item 4 -->
+            </div>
+          </div>
+        </div> 
+          <!-- End or row -->
+      </div>
+      <!-- End of accordion container -->
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
